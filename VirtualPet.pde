@@ -1,4 +1,4 @@
-void setup()
+ivoid setup()
 {
   size(400, 400);
 }
@@ -40,7 +40,7 @@ void draw()
 
   //eyes
   fill(255,255,255);
-  circle(75,150,15);
+  ellipse(75,150,15,15);
   fill(0,0,0);
-  circle(75,150,7);
+  ellipse(75,150,7,7);
 }
